@@ -73,7 +73,8 @@ UPDATE_PACKAGE "lazyoop" "lazyoop/networking-artifact" "main"
 
 UPDATE_PACKAGE "istore" "linkease/istore" "main"
 UPDATE_PACKAGE "istore-ui" "linkease/istore-ui" "main"
-UPDATE_PACKAGE "nas-packages-luci＂ "linkease/nas-packages-luci" "main"
+UPDATE_PACKAGE "nas-packages-luci" "linkease/nas-packages-luci" "main"
+UPDATE_PACKAGE "nas-packages" "linkease/nas-packages" "master"
 
 if [[ $WRT_REPO != *"immortalwrt"* ]]; then
 	UPDATE_PACKAGE "qmi-wwan" "immortalwrt/wwan-packages" "master" "pkg"
